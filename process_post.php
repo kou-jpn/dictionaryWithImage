@@ -14,7 +14,7 @@
     //DB名、ユーザー名、パスワード
     $dsn = 'mysql:dbname=quotes;host=localhost';
     $user = 'root';
-    $password = 'pro3620';
+    $password = '';
 
     $PDO = new PDO($dsn, $user, $password); //MySQLのデータベースに接続
     $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
