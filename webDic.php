@@ -55,7 +55,7 @@ foreach ($dom->find('img') as $img){
     <?php
     $dsn = 'mysql:host=localhost;dbname=DIC';
     $username = 'root';
-    $password = 'pro3620';
+    $password = '';
    if ($_POST) {
         try {
             $dbh = new PDO($dsn, $username, $password);
